@@ -13,14 +13,14 @@ button {
 }
 
 button:nth-child(2n) {
-    background-color: ;
+    background-color:#fad9f6;
 }
 
 button:nth-child(3n) {
-    background-color: ;
+    background-color:#cce0ff;
 }
 
 button:nth-child(4n) {
-    background-color: ;
+    background-color:#dff5da;
 }
    

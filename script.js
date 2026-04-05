@@ -3,7 +3,7 @@ let dog = 0;
 let fox = 0;
 let owl = 0;
 
-function choose(type) {
+function choose(type, btn) {
 
     if (type == "cat") {
         cat = cat + 1;
@@ -14,8 +14,7 @@ function choose(type) {
     } else {
         owl = owl + 1;
     }
-
-    btn.style.backgroundColor = "#444444";
+    btn.classList.add("selected");
 }
 
 function restartQuiz() {

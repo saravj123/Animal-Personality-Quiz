@@ -24,10 +24,11 @@ function restartQuiz() {
     owl = 0;
 
     document.getElementById("output").textContent = "";
+    document.getElementById("animalImage").src = "";
 
     let buttons = document.querySelectorAll("button");
     buttons.forEach(btn => {
-        btn.style.backgroundColor = "#ffebfc";
+        btn.classList.remove("selected");
     });
 }
 

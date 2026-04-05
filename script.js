@@ -14,9 +14,9 @@ function choose(type) {
     } else {
         owl = owl + 1;
     }
-
+  
 }
-
+  
 function result() {
 
     let max = cat;

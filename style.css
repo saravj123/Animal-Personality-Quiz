@@ -12,6 +12,10 @@ button {
     color: white;
 }
 
+.selected {
+    background-color: #444444 !important;
+}
+
 button:nth-child(2n) {
     background-color:#fad9f6;
 }

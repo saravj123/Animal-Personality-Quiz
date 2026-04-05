@@ -18,6 +18,19 @@ function choose(type) {
     btn.style.backgroundColor = "#444444";
 }
 
+function restartQuiz() {
+    cat = 0;
+    dog = 0;
+    fox = 0;
+    owl = 0;
+
+    document.getElementById("output").textContent = "";
+
+    let buttons = document.querySelectorAll("button");
+    buttons.forEach(btn => {
+        btn.style.backgroundColor = "#ffebfc";
+    });
+}
 
 
 function result() {

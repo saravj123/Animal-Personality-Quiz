@@ -16,7 +16,9 @@ function choose(type) {
     }
   
 }
-  
+
+event.target.style.backgroundColor = "#444444";
+
 function result() {
 
     let max = cat;

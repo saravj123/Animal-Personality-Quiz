@@ -14,10 +14,11 @@ function choose(type) {
     } else {
         owl = owl + 1;
     }
-  
+
+    btn.style.backgroundColor = "#444444";
 }
 
-event.target.style.backgroundColor = "#444444";
+
 
 function result() {
 

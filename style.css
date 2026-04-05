@@ -12,19 +12,18 @@ button {
     color: white;
 }
 
+button {
+    margin: 7px;
+    padding: 12px;
+    background-color: #ffbdf6;
+    border: none;
+    color: white;
+}
+
+button:nth-of-type(2n) {
+    background-color: #cce0ff;
+}
+
 .selected {
     background-color: #444444 !important;
 }
-
-button:nth-child(2n) {
-    background-color:#fad9f6;
-}
-
-button:nth-child(3n) {
-    background-color:#cce0ff;
-}
-
-button:nth-child(4n) {
-    background-color:#dff5da;
-}
-   

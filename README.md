@@ -4,9 +4,11 @@
 This project is a short quiz that tells you what animal you are based on your personality. 
 
 ## Features 
-- 10 questions
+- 15 questions
 - Tracks with a scoring system
 - Tells you your animal
+- Reset button
+- 
 
 ## Possible Results
 - Cat

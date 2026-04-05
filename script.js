@@ -36,24 +36,29 @@ function restartQuiz() {
 function result() {
 
     let max = cat;
-    let animal = "Cat";
+    let animal = "cat";
+    let image = "cat.jpg";
 
     if (dog > max) {
         max = dog;
-        animal = "Dog";
+        animal = "dog";
+        image = "dog.jpg";
     }
 
     if (fox > max) {
         max = fox;
-        animal = "Fox";
+        animal = "fox";
+        image = "fox.jpg";
     }
 
     if (owl > max) {
         max = owl;
         animal = "owl";
+        image = "owl.jpg";
     }
 
     document.getElementById("output").textContent =
         "You are a " + animal;
 
+    document.getElementById("animalImage").src = image;
 }

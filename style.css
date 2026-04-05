@@ -11,5 +11,16 @@ button {
     border: none;
     color: white;
 }
-  
+
+button:nth-child(2n) {
+    background-color: ;
+}
+
+button:nth-child(3n) {
+    background-color: ;
+}
+
+button:nth-child(4n) {
+    background-color: ;
+}
    

@@ -6,9 +6,8 @@ This project is a short quiz that tells you what animal you are based on your pe
 ## Features 
 - 15 questions
 - Tracks with a scoring system
-- Tells you your animal
+- Tells you your animal with a picture
 - Reset button
-- 
 
 ## Possible Results
 - Cat
